@@ -1,8 +1,28 @@
 body {
   padding: 2rem;
-  background-color: rgb(233, 228, 220);
   text-align: center;
-  color: #2b2424;
+  color: #434b50;
+  background: linear-gradient(141deg, #feffdd, #f5eddf, #cfdde6);
+  background-size: 600% 600%;
+  -webkit-animation: AnimationName 59s ease infinite;
+  -moz-animation: AnimationName 59s ease infinite;
+  animation: AnimationName 59s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+  0%{background-position:0% 51%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 51%}
+}
+@-moz-keyframes AnimationName {
+  0%{background-position:0% 51%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 51%}
+}
+@keyframes AnimationName {
+  0%{background-position:0% 51%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 51%}
 }
 
 * {
@@ -15,31 +35,38 @@ body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  transition: all .25s ease-in-out;
+    -moz-transition: all .25s ease-in-out;
+    -webkit-transition: all .25s ease-in-out;
 }
 
 .logo {
   width: 100%;
   max-width: 100px;
 }
+.logo svg g path {
+  fill: #7a8b95;
+}
 h1, h2, h3, h4, h5 {
   font-weight: 700;
 }
 
-/*
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  font-size: 1em;
+p {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+hr {
+  width: 100%;
+}
+
+footer {
+  display: flex;
+  gap: 20px;
   font-weight: 500;
-  font-family: inherit;
-  cursor: pointer;
-  transition: border-color 0.25s;
+  text-decoration: none;
+  justify-content: center;
+  width: 100%;
+  margin-top: 30px;
+  padding: 10px;
 }
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
-  */
