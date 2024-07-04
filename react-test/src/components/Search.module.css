@@ -1,0 +1,46 @@
+.search_contain {
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 450px;
+    margin-bottom: 20px;
+}
+
+.title {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.search_contain:hover button,
+.search_contain:hover input {
+    background-color: #181515;
+}
+
+.search_contain input,
+.search_contain button {
+    border: none;
+    color: aliceblue;
+    background-color: #2b2424;
+}
+.search_contain input {
+    border-radius: 20px 0 0 20px;
+    padding: .6rem .6rem .6rem 1.5rem;
+    width: 100%;
+    text-align: center;
+    outline: none;
+}
+.search_contain button {
+    background-color: #2b2424;
+    cursor: pointer;
+    border-radius: 0 20px 20px 0;
+    padding: .6rem 1rem .6rem .6rem;
+}
+.search_contain button svg {
+    fill: aliceblue;
+}
+.reposlist {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: center;
+}

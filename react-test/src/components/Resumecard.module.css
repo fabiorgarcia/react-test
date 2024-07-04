@@ -1,0 +1,10 @@
+.resumecard {
+    background-color: #52585f;
+    color: #ffffff;
+    padding: 5px;
+    border-radius: 5px;
+}
+.resumecard:hover {
+    cursor: pointer;
+    background-color: #363b41;
+}

@@ -1,0 +1,91 @@
+.listuser {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: space-around;
+}
+.user {
+    background-color: #42403c;
+    padding: 2rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.2rem;
+    color: aliceblue;
+    width: 100%;
+    max-width: 350px;
+}
+.user:hover {
+    background-color: #383633;
+}
+
+.user img {
+    width: 140px;
+    height: 140px;
+    border: 4px solid rgb(189, 189, 189);
+    border-radius: 50%;
+}
+
+.carct {
+    line-height: 110%;
+}
+svg {
+    fill: #7e8a91;
+    font-size: 0.9rem;
+    margin-top: 2px;
+}
+.carct span {
+    color:#c0cbd1;
+}
+.url {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-size: 0.8rem!important;
+    font-style: italic;
+    text-decoration: none;
+}
+.url a{
+    background: none!important;
+}
+.stats {
+    display: flex;
+}
+.stats div {
+    padding: 0 1rem;
+    display: flex;
+    flex-direction: column;
+}
+.stats div:first-child {
+    border-right: 1px solid rgb(148, 148, 148);
+}
+.stats .number {
+    color: #e7d9a3;
+}
+.user a {
+    text-decoration: none;
+    color: #e0dfd9;
+}
+.user a:hover {
+    color: #ffffff;
+}
+.repos {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+}
+.list_repos {
+    cursor: pointer;
+    display: flex;
+    gap: 5px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+}
+.list_repos:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
